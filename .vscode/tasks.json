@@ -7,7 +7,7 @@
 			"command": "/usr/bin/g++",
 			"args": [
 				"-g",
-				"${workspaceFolder}/*.cpp",
+				"${workspaceFolder}/*.cxx",
 				"-o",
 				"${workspaceFolder}/dds_consumer"
 			],

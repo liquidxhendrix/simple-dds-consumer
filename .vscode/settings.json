@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/liquidxhendrix/Projects/simple-dds-consumer/objs/x64Linux4gcc7.3.0",
+            "binaryPath": "/home/liquidxhendrix/Projects/simple-dds-consumer/objs/x64Linux4gcc7.3.0/dds_consumer",
+            "binaryArgs": []
+        }
+    ]
+}
