@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Apr 27 14:40:02 2021
+# Make data base, printed on Thu Apr 29 09:44:16 2021
 
 # Variables
 
@@ -26,8 +26,8 @@ DESKTOP_SESSION = ubuntu
 XDG_SESSION_CLASS = user
 # environment
 SNAP_COMMON = /var/snap/code/common
-# makefile (from 'makefile', line 27)
-NDDSHOME := "/opt/rti_connext_dds-6.0.1"
+# environment
+NDDSHOME = /opt/rti_connext_dds-6.0.1/
 # environment
 XDG_SESSION_TYPE = x11
 # environment
@@ -57,7 +57,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:30444
+JOURNAL_STREAM = 8:29446
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -85,7 +85,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 979
+MANAGERPID = 922
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -99,7 +99,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/RTI-A:@/tmp/.ICE-unix/1236,unix/RTI-A:/tmp/.ICE-unix/1236
+SESSION_MANAGER = local/RTI-A:@/tmp/.ICE-unix/1179,unix/RTI-A:/tmp/.ICE-unix/1179
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -117,7 +117,7 @@ DISABLE_WAYLAND = 1
 # environment
 VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=6eee5c37-1ac4-4abf-90da-f30768274bbe&iid=6eee5c37-1ac4-4abf-90da-f30768274bbe&sid=6eee5c37-1ac4-4abf-90da-f30768274bbe","uploadToServer":true}
 # environment
-INVOCATION_ID = ecbe25615a4a47eeba9accd74240054b
+INVOCATION_ID = 7060de18d74e463aa7eb9b7dac2df899
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/62/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -143,7 +143,7 @@ PWD = /home/liquidxhendrix/Projects/simple-dds-consumer
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1202
+SSH_AGENT_PID = 1145
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # makefile (from 'makefile', line 45)
@@ -205,7 +205,7 @@ DEBUG_SFX =
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0063d77b-80b1-45d0-8d53-7b616a1dfbe7.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4135cd5e-6498-4ca8-a452-13e1160fb439.sock
 # makefile (from 'makefile', line 84)
 EXEC = dds_consumer
 # default
@@ -227,7 +227,7 @@ MAKE_COMMAND := make
 # environment
 VSCODE_NODE_CACHED_DATA_DIR = /home/liquidxhendrix/.config/Code/CachedData/3c4e3df9e89829dce27b7b5c24508306b151f30d
 # environment
-OLDPWD = /home/liquidxhendrix/Projects/simple-dds-consumer/objs
+OLDPWD = /home/liquidxhendrix/Projects
 # default
 .VARIABLES := 
 # automatic
@@ -275,11 +275,11 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # makefile (from 'makefile', line 74)
 LIBS = -L$(NDDSHOME)/lib/$(TARGET_ARCH) -lnddscpp$(SHAREDLIB_SFX)$(DEBUG_SFX) -lnddsc$(SHAREDLIB_SFX)$(DEBUG_SFX) -lnddscore$(SHAREDLIB_SFX)$(DEBUG_SFX) $(SYSLIBS)
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a6465312_50a4_40a1_8dde_65dabc0563d4
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a3d77710_7130_4871_b156_5548c3e9432e
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.90
+GNOME_TERMINAL_SERVICE = :1.71
 # default
 SUFFIXES := 
 # environment
@@ -299,7 +299,7 @@ LANG = en_SG.UTF-8
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 16852
+VSCODE_PID = 2553
 # variable set hash-table stats:
 # Load=144/1024=14%, Rehash=0, Collisions=22/197=11%
 
@@ -310,7 +310,7 @@ VSCODE_PID = 16852
 # Directories
 
 # . (device 2053, inode 582577): 19 files, no impossibilities.
-# objs/x64Linux4gcc7.3.0 (device 2053, inode 583220): No files, no impossibilities so far.
+# objs/x64Linux4gcc7.3.0 (device 2053, inode 583271): No files, no impossibilities so far.
 
 # 19 files, no impossibilities in 2 directories.
 
@@ -417,6 +417,6 @@ objs/x64Linux4gcc7.3.0/ShapeType.o:
 # strcache performance: lookups = 44 / hit rate = 15%
 # hash-table stats:
 # Load=37/8192=0%, Rehash=0, Collisions=1/44=2%
-# Finished Make data base on Tue Apr 27 14:40:02 2021
+# Finished Make data base on Thu Apr 29 09:44:16 2021
 
  
